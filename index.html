@@ -839,7 +839,7 @@
         </section>
         <!-- END TIN NHẮN -->
         <script>
-            fetch('https://thiepdientu.com.vn/wp-json/wp/v2/comments?post=11148&per_page=100',
+            fetch('https://thiepdientu.com.vn/wp-json/wp/v2/comments?post=1399&per_page=100',
                 {
                     method: 'GET',
                 }
@@ -863,7 +863,7 @@
             //FORM
             $('#messageForm').submit(function (e) {
                 e.preventDefault();
-                const postId = "1304"
+                const postId = "1399"
                 const name = $(this).find('#m_name').val()
                 const mess = $(this).find('#m_text').val()
                 const data = JSON.stringify({
